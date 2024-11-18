@@ -172,7 +172,8 @@ def to_csv(tables):
                     'retained_profits': '留存利润',
                     'retained_count': '留存金额',
                     }, inplace=True)
-
+    
+    print(df.to_markdown(index=False))
     df.to_csv('output.csv', index=False, encoding='utf-8')
 
 
