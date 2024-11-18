@@ -5,7 +5,7 @@ ETF拯救世界的网格策略生成工具
 
 ### require
 ```
-pip install -r requirements.txt
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 ### setup
