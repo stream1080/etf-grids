@@ -1,14 +1,18 @@
 # etf-grids
 ETF拯救世界的网格策略生成工具
 
+1. [波段策略.网格之一：写在前面、体系以及策略](https://mp.weixin.qq.com/s/uxktt5ZpNo03FpQQX-aG7g)
+2. [波段策略.网格之二：网格策略基础/1.0版](https://mp.weixin.qq.com/s/-czfqGvxkDcay_tSI1jv5g)
+3. [波段策略.网格之三：网格策略进阶/2.0版](https://mp.weixin.qq.com/s/8pRKsjiQSZzrmH-uWCkRLQ)
+
 ## QuickStart
 
-### require
+### Require
 ```
 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
-### setup
+### Setup
 ```
 # 网格参数
 state = {
@@ -22,12 +26,12 @@ state = {
 }
 ```
 
-### start
+### Start
 ```
 python3 grids.py
 ```
 
-### result
+### Result
 |   序号 | 种类   |   档位 |   买入价格 |   卖出价格 |   买入金额 |   买入数量 |   卖出金额 |   卖出数量 |   盈利金额 | 盈利比例   |   留存利润 |   留存金额 |
 |-----:|:-----|-----:|-------:|-------:|-------:|-------:|-------:|-------:|-------:|:-------|-------:|-------:|
 |    1 | 小网   | 1    |   1    |   1.05 |  10000 |  10000 |   9450 |   9000 |    500 | 5.00%  |   1050 |   1000 |
@@ -49,8 +53,3 @@ python3 grids.py
 |   17 | 小网   | 0.4  |   0.4  |   0.45 |  16000 |  40000 |  13995 |  31100 |   2000 | 12.50% |   4005 |   8900 |
 |   18 | 中网   | 0.4  |   0.4  |   0.55 |  16000 |  40000 |   9955 |  18100 |   6000 | 37.50% |  12045 |  21900 |
 |   19 | 大网   | 0.4  |   0.4  |   0.7  |  16000 |  40000 |   3990 |   5700 |  12000 | 75.00% |  24010 |  34300 |
-
-## Reference
-1. [波段策略.网格之一：写在前面、体系以及策略](https://mp.weixin.qq.com/s/uxktt5ZpNo03FpQQX-aG7g)
-2. [波段策略.网格之二：网格策略基础/1.0版](https://mp.weixin.qq.com/s/-czfqGvxkDcay_tSI1jv5g)
-3. [波段策略.网格之三：网格策略进阶/2.0版](https://mp.weixin.qq.com/s/8pRKsjiQSZzrmH-uWCkRLQ)
